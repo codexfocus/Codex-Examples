@@ -20,11 +20,11 @@ $conn = oci_connect("user", "pass", "location");
 * Example select statement.
 */
 
-$sql = '
+$sql = "
   SELECT emp_no, birth_date, first_name, last_name
   FROM employees
   WHERE emp_no = :emp_no
-  ';
+  ";
   
 $stmt = oci_parse($conn, $sql);
 
