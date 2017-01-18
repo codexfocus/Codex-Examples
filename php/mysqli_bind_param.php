@@ -3,7 +3,13 @@
 /**
 * Examples of select, update, insert, delete using mysqli bind_param in php
 *
-* Further examples can be found at:
+* Note: bind_param type specification chars
+* i has type integer
+* d has type double
+* s has type string
+* b is a blob and will be sent in packets
+*
+* Further examples and explanations can be found at:
 * http://php.net/manual/en/mysqli-stmt.bind-param.php
 * http://www.w3schools.com/php/php_mysql_prepared_statements.asp
 *
@@ -13,15 +19,16 @@
 * @author codexfocus
 * https://github.com/codexfocus
 */
+
+//Connection variables
 $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "myDB";
 
-// New connection
+//Start a new connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-//Select needs a better loop example
 //Select employee data from employees table using prepared statement
 $stmt = $conn->prepare("
   SELECT emp_no, birth_date, first_name, last_name
@@ -29,10 +36,15 @@ $stmt = $conn->prepare("
   WHERE emp_no = ?
   ");
 $stmt->bind_param("i", $emp_no);
-
 $emp_no = 1;
-
 $stmt->execute();
+//Output results
+//Need to bind all the column names to a variable from the select statement.
+$stmt->bind_result($emp_no, $birth_date, $first_name, $last_name);
+while ($stmt->fetch())
+{
+  echo $last_name . "<br>";
+}
 $stmt->close();
 
 //Insert employee data into the table
@@ -41,12 +53,10 @@ $stmt = $conn->prepare("
   VALUES (?, ?, ?, ?)
   ");
 $stmt->bind_param("isss", $emp_no, $birth_date, $first_name, $last_name);
-
 $emp_no = 1234;
 $birth_date = 2000-01-01;
 $first_name = "John";
 $last_name = "Doe";
-
 $stmt->execute();
 $stmt->close();
 
@@ -57,12 +67,10 @@ $stmt = $conn->prepare("
   WHERE emp_no=?
   ");
 $stmt->bind_param("sssi", $birth_date, $first_name, $last_name, $emp_no);
-
 $emp_no = 1234;
 $birth_date = 2000-01-01;
 $first_name = "John";
 $last_name = "Doe";
-
 $stmt->execute();
 $stmt->close();
 
@@ -73,9 +81,7 @@ $stmt = $conn->prepare("
   WHERE emp_no=?
   ");
 $stmt->bind_param("i", $emp_no);
-
 $emp_no = 1234;
-
 $stmt->execute();
 $stmt->close();
 
