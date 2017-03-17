@@ -94,5 +94,25 @@ oci_bind_by_name($stmt, ":emp_no", $emp_no);
 oci_execute($stmt);
 oci_free_statement($stmt);
 
+/**
+* Example Stored Procedure
+* A good tutorial on using Stored Procedures with php:
+* http://www.oracle.com/technetwork/articles/fuecks-sps-095636.html
+*/
+
+$sql = 'BEGIN sayHello(:emp_no, :first_name); END;';
+
+$stmt = oci_parse($conn,$sql);
+
+//  Bind the input parameter
+oci_bind_by_name($stmt,':emp_no',$emp_no,32);
+
+// Bind the output parameter
+oci_bind_by_name($stmt,':first_name',$first_name,32);
+
+$emp_no = '101';
+oci_execute($stmt);
+// $message is now populated with the output value
+
 oci_close($conn);
 ?>
