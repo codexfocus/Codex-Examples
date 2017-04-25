@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- Example from http://stackoverflow.com/questions/41079335/implement-the-new-invisible-recaptcha-from-google -->
+
+<form action="" method="post">
+    <input type="text" name="first-name-1"> <br />
+    <input type="text" name="last-name-1"> <br />
+
+    <div class="recaptcha-holder"></div>
+
+    <input type="submit" value="Submit">
+</form>
+
+<br /><br />
+
+<form action="" method="post">
+    <input type="text" name="first-name-2"> <br />
+    <input type="text" name="last-name-2"> <br />
+
+    <div class="recaptcha-holder"></div>
+
+    <input type="submit" value="Submit">
+</form>
+
+<script type="text/javascript">
+
+  var renderGoogleInvisibleRecaptcha = function() {
+    for (var i = 0; i < document.forms.length; ++i) {
+      var form = document.forms[i];
+      var holder = form.querySelector('.recaptcha-holder');
+      if (null === holder){
+        continue;
+      }
+
+      (function(frm){
+
+        var holderId = grecaptcha.render(holder,{
+          'sitekey': 'CHANGE_ME_WITH_YOUR_SITE_KEY',
+          'size': 'invisible',
+          'badge' : 'bottomright', // possible values: bottomright, bottomleft, inline
+          'callback' : function (recaptchaToken) {
+            HTMLFormElement.prototype.submit.call(frm);
+          }
+        });
+
+        frm.onsubmit = function (evt){
+          evt.preventDefault();
+          grecaptcha.execute(holderId);
+        };
+
+      })(form);
+    }
+  };
+
+
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=renderGoogleInvisibleRecaptcha&render=explicit" async defer></script>
+
+</body>
+</html>
