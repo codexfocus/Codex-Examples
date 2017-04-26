@@ -1,7 +1,6 @@
 <?php
 
 $captcha;
-$secret = "SECERT_KEY_GOES_HERE";
 
 if(isset($_POST['g-recaptcha-response']))
 {
@@ -12,6 +11,8 @@ if(!$captcha)
 {
   //captcha was not sent return back to the form
 } else {
+  
+  $secret = "SECERT_KEY_GOES_HERE";
 
   $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
   
