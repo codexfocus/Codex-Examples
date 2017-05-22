@@ -10,16 +10,14 @@
 * https://github.com/codexfocus
 */
 
-/**
-* Example connection string for a oracle database.
-*/
-
+//Create a connection for a oracel database
 $conn = oci_connect("user", "pass", "location");
+if (!$conn) {
+    $e = oci_error();
+    trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
+}
 
-/**
-* Example select statement.
-*/
-
+// Example select statement.
 $sql = "
   SELECT emp_no, birth_date, first_name, last_name
   FROM employees
@@ -27,11 +25,20 @@ $sql = "
   ";
   
 $stmt = oci_parse($conn, $sql);
+if (!$stmt) { 
+   $oerr = oci_error($conn); 
+   echo "Fetch Code 1:".$oerr["message"]; 
+   exit; 
+} 
 
 $emp_no = 60;
 
 oci_bind_by_name($stmt, ':emp_no', $emp_no);
 oci_execute($stmt);
+while ($row = oci_fetch_array ($stmt, OCI_ASSOC+OCI_RETURN_NULLS))
+{
+  $first_name = $row['first_name'];
+}
 oci_free_statement($stmt);
 
 
