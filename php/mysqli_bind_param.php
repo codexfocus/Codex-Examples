@@ -47,6 +47,17 @@ while ($stmt->fetch())
 }
 $stmt->close();
 
+//Select prepared statment with no bind_param example.
+$stmt = $conn->prepare("
+  SELECT emp_no, birth_date, first_name, last_name
+    FROM employees
+  ");
+$stmt->execute();
+$stmt->bind_result($emp_no, $birth_date, $first_name, $last_name);
+$stmt->fetch();
+$stmt->close();
+var_dump($emp_no, $birth_date, $first_name, $last_name);
+
 //Insert employee data into the table
 $stmt = $conn->prepare("
   INSERT INTO employees(emp_no, birth_date, first_name, last_name)
