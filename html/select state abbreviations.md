@@ -1,6 +1,6 @@
 ### Select with state abbreviations
 
-exposition
+Select input with state abbreviations input and full state names displayed.
 
 ```
 <select name="state">
