@@ -2,7 +2,8 @@
 
 exposition
 
-`<select name="state">
+```
+<select name="state">
   <option value="">State</option>
   <option value="AL">Alabama</option>
   <option value="AK">Alaska</option>
@@ -55,7 +56,8 @@ exposition
   <option value="WV">West Virginia</option>
   <option value="WI">Wisconsin</option>
   <option value="WY">Wyoming</option>
-</select>`
+</select>
+```
 
 - Source(s)
   - none
