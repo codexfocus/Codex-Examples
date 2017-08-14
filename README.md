@@ -7,9 +7,9 @@ Use at your own risk.
 
 [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
 
-## markdown notes
+## markdown
 
-A couple quick reference for [markdown](https://guides.github.com/features/mastering-markdown/) until I remember them.
+A couple quick references for [markdown](https://guides.github.com/features/mastering-markdown/) until I remember them.
 
 Inline Code Use ``code here``
 
