@@ -5,9 +5,8 @@ Use at your own risk.
 
 ## html
 
-[html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
-
-[select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select%20state%20abbreviations.md)
+- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
+- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select%20state%20abbreviations.md)
 
 ## markdown
 
