@@ -2,7 +2,7 @@
 
 A basic html page syntax guide in sources.
 
-`<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <title>Page Title</title>
@@ -19,7 +19,7 @@ A basic html page syntax guide in sources.
   <body>
     <h1>Hello, world!</h1>
   </body>
-</html>`
+</html>```
 
 - Source(s)
   - [html Syntax Guide](http://codeguide.co/)
