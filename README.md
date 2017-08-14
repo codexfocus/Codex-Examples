@@ -8,6 +8,11 @@ Use at your own risk.
 - [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select%20state%20abbreviations.md)
 
+## php
+
+- [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
+- [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
+
 ## markdown
 
 A couple quick references for [markdown](https://guides.github.com/features/mastering-markdown/) until I remember them.
