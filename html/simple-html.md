@@ -19,7 +19,9 @@ In page link
 <a href="#jump">Go to top</a>
 ```
 Email and Phone links
+
 `<a href="mailto:#">Link Name Here</a>`
+
 `<a href="tel:+18005555555">1-800-555-5555</a>`
 
 Lists
