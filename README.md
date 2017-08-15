@@ -15,6 +15,11 @@ Use at your own risk.
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
 
+## sql
+
+- [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/mysql-show-create-statement.md)
+
+
 ## markdown
 
 A couple quick references for [markdown](https://guides.github.com/features/mastering-markdown/) until I remember them.
