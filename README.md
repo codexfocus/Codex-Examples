@@ -18,6 +18,7 @@ Use at your own risk.
 ## sql
 
 - [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/mysql-show-create-statement.md)
+- [Joins](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/joins.md)
 
 
 ## markdown
