@@ -12,6 +12,7 @@ Use at your own risk.
 
 ## php
 
+- [Documenting with phpdoc](https://www.phpdoc.org/docs/latest/getting-started/your-first-set-of-documentation.html)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
 
