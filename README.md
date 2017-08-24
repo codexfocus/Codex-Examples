@@ -18,7 +18,7 @@ Use at your own risk.
 
 ## sql
 
-- [INSERT](https://www.tutorialspoint.com/sql/sql-insert-query.htm)
+- [INSERT](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/insert.md)
 - [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/mysql-show-create-statement.md)
 - [Joins](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/joins.md)
 
