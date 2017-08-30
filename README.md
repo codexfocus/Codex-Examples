@@ -3,13 +3,6 @@ A collection of code snippts and examples.
 
 Use at your own risk.
 
-## html
-
-- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
-- [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
-- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select%20state%20abbreviations.md)
-
-
 ## php
 
 - [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/php/documenting-with-phpdoc.md)
@@ -21,6 +14,19 @@ Use at your own risk.
 - [INSERT](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/insert.md)
 - [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/mysql-show-create-statement.md)
 - [Joins](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/joins.md)
+
+## html
+
+- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
+- [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
+- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select%20state%20abbreviations.md)
+
+## jquery
+
+- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/jquery/jquery-cdn-sources.md)
+- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/jquery/back-button.md)
+
+
 
 
 ## markdown
