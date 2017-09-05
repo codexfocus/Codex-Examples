@@ -25,6 +25,7 @@ Use at your own risk.
 
 - [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/jquery-cdn-sources.md)
 - [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
+- [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
 
 
 
