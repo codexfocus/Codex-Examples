@@ -5,15 +5,15 @@ Use at your own risk.
 
 ## php
 
-- [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/php/documenting-with-phpdoc.md)
+- [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/master/php/documenting-with-phpdoc.md)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
 
 ## sql
 
-- [INSERT](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/insert.md)
-- [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/mysql-show-create-statement.md)
-- [Joins](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/sql/joins.md)
+- [INSERT](https://github.com/codexfocus/Codex-Examples/blob/master/sql/insert.md)
+- [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/master/sql/mysql-show-create-statement.md)
+- [Joins](https://github.com/codexfocus/Codex-Examples/blob/master/sql/joins.md)
 
 ## html
 
@@ -23,8 +23,8 @@ Use at your own risk.
 
 ## jquery
 
-- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/jquery/jquery-cdn-sources.md)
-- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/aug-upd/jquery/back-button.md)
+- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/jquery-cdn-sources.md)
+- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
 
 
 
