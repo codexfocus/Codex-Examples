@@ -22,9 +22,9 @@ Use at your own risk.
 - [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
 
-##css
+## css
 
--[print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
+- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
 
 ## jquery
 
