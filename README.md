@@ -6,6 +6,7 @@ Use at your own risk.
 ## php
 
 - [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/master/php/documenting-with-phpdoc.md)
+- [php session notes](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-sessions.md)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
 
