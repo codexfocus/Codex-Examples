@@ -1,6 +1,8 @@
 # Codex-Examples
 A collection of code snippts and examples.
 
+I learn best by writing things down and trying to explain them. So if sections seem redundant or I seem to repeat simple things over and over that is why.
+
 Use at your own risk.
 
 ## php
@@ -32,9 +34,6 @@ Use at your own risk.
 - [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
 - [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
 - [Printing html on load](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/printing-html-on-load.md)
-
-
-
 
 ## markdown
 
