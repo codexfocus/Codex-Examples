@@ -13,8 +13,8 @@
   * @return
   *  //example output for $close = 0
   * array(1) { [0]=> array(10) { ["username"]=> string(4) "test" ["last_name"]=> NULL ["first_name"]=> NULL 
-  ["main_phone"]=> NULL ["cell_phone"]=> NULL ["address"]=> * NULL ["city"]=> NULL ["state"]=> NULL 
-  ["zipcode"]=> NULL ["role"]=> NULL } }
+  * ["main_phone"]=> NULL ["cell_phone"]=> NULL ["address"]=> * NULL ["city"]=> NULL ["state"]=> NULL 
+  * ["zipcode"]=> NULL ["role"]=> NULL } }
   */
 
   public function prepared_mysql($sql, $params, $close, $conn_choice) 
@@ -26,7 +26,7 @@
 
     //Pick a connection string
     
-    if ($conn == "1") 
+    if ($conn_choice == "1") 
     {
       $conn = $this->first_conn();
     } elseif ($conn_choice == "2") 
