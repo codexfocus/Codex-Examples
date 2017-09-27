@@ -58,6 +58,20 @@ $stmt->fetch();
 $stmt->close();
 var_dump($emp_no, $birth_date, $first_name, $last_name);
 
+//Select prepared statement into an array
+$stmt = $conn->prepare("
+SELECT emp_no, birth_date, first_name, last_name
+  FROM employees WHERE birth_date = ?");
+$stmt->bind_param("i", $day);
+$month = "2000-01-01";
+$stmt->execute();
+$results = $stmt->get_result();
+$stmt->close();
+while($row = $result->fetch_assoc())
+{
+  echo "Happy Birthday: " . $row['first_name'];
+}
+
 //Insert employee data into the table
 $stmt = $conn->prepare("
   INSERT INTO employees(emp_no, birth_date, first_name, last_name)
