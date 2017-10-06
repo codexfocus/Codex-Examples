@@ -11,7 +11,6 @@ Use at your own risk.
 - [php session notes](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-sessions.md)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
-- [method for prepared mysql statements](https://github.com/codexfocus/Codex-Examples/blob/master/php/method-for-prep-mysql-stmt.php)
 
 ## sql
 
