@@ -6,7 +6,10 @@ exposition
 
 Other example(s):
 
-`a variation on above but with more advanced functionality`
+```
+a variation on above but with more advanced functionality
+and multiple lines
+```
 
 - Source(s)
   - [1](link1)
