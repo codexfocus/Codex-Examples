@@ -50,5 +50,4 @@ This example is using a dropdown question that when answered yes will display th
 
 
 - Source(s)
-  - [1](link1)
-  - [2](link2)
+ - None
