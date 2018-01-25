@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.10.4.custom.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="jquery-ui-1.10.4.custom.min.css" rel="stylesheet" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      .ui-autocomplete
+      {
+        max-height: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+    </style>
+	  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bootstrap Page</h1>
+      <p>This is some text.</p>
+      <table class="table table-condensed table-bordered" id="table">
+        <thead>
+        	<tr>
+        		<th>
+        			Column 1
+        		</th>
+        		<th>
+        			Column 2
+        		</th>
+        	</tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Item One</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Item Two</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript">
+      var classes =
+      [
+        "Item One		1",
+        "Item Two		2"
+      ]
+    </script>
+    <script type="text/javascript">
+    	$('#searchbox').autocomplete({
+    		source: classes,
+    		minlength: 1
+    	})
+
+    	$('#table').DataTable();
+    </script>
+  </body>
+</html>
