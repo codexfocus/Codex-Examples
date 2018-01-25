@@ -35,6 +35,7 @@ Use at your own risk.
 - [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
 - [Printing html on load](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/printing-html-on-load.md)
 - [Show html element when question answered](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/show-when-question-answered.md)
+- [DataTables Search Template](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/search/datatables-search.md)
 
 ## markdown
 
