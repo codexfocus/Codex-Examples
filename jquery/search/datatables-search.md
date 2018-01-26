@@ -32,3 +32,4 @@ Also add the information into the javascript:
 - Source(s)
   - [Github DataTables](https://github.com/DataTables/DataTables)
   - [https://datatables.net/](https://datatables.net/)
+  - [Bootstrap Example](https://datatables.net/examples/styling/bootstrap.html)
