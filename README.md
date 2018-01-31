@@ -23,6 +23,7 @@ Use at your own risk.
 - [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
 - [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
+- [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
 
 ## css
 
