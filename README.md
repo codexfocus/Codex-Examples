@@ -11,6 +11,7 @@ Use at your own risk.
 - [php session notes](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-sessions.md)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
 - [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
+- [Get the url of a page](https://github.com/codexfocus/Codex-Examples/blob/master/php/get-url-of-page.md)
 
 ## sql
 
