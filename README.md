@@ -15,9 +15,14 @@ Use at your own risk.
 
 ## sql
 
+### mysql
 - [INSERT](https://github.com/codexfocus/Codex-Examples/blob/master/sql/insert.md)
 - [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/master/sql/mysql-show-create-statement.md)
 - [Joins](https://github.com/codexfocus/Codex-Examples/blob/master/sql/joins.md)
+
+### plsql
+
+### tsql
 
 ## html
 
