@@ -24,6 +24,8 @@ Use at your own risk.
 
 ### tsql
 - [Create Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/create-table.md)
+- [Select, Insert, Update, Delete](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/select-insert-update-delete-tsql-examples.md)
+- [Output](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/output-tsql-example.md)
 
 ## html
 
