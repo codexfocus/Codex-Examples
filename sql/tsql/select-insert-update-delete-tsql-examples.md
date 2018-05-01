@@ -28,7 +28,6 @@ VALUES (CURRENT_TIMESTMAP, GETDATE());
 ```
 UPDATE TableName   
 SET FirstName = 'xyz'  
-FROM Employee
 WHERE EmpId = 1;
 ```
 
