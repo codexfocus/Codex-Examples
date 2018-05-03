@@ -17,7 +17,7 @@ SELECT FirstName, LastName, StartDate AS FirstDay
 
 ```
 INSERT INTO TableName (ColumnOne, ColumnTwo)  
-VALUES (CURRENT_TIMESTMAP, GETDATE());  
+VALUES (CURRENT_TIMESTAMP, GETDATE());  
 ```
 
 - Source(s)
