@@ -11,3 +11,6 @@ GO
 
 - Source(s)
   - [Create Sequence - Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-sequence-transact-sql?view=sql-server-2017)
+  
+### How to Reset Sequence
+
