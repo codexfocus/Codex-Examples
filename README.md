@@ -37,7 +37,7 @@ Use at your own risk.
 
 ## css
 
--- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
+- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
 
 ## jquery
 
