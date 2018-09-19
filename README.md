@@ -7,6 +7,7 @@ Use at your own risk.
 
 ## php
 
+- [How to see php errors?](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-errors.md)
 - [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/master/php/documenting-with-phpdoc.md)
 - [php session notes](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-sessions.md)
 - [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
