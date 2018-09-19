@@ -10,4 +10,4 @@ GO
 ```
 
 - Source(s)
-  - [Create a Sequence](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-sequence-transact-sql?view=sql-server-2017)
+  - [Create Sequence - Microsoft Docs](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-sequence-transact-sql?view=sql-server-2017)
