@@ -6,6 +6,7 @@ I learn best by writing things down and trying to explain them. So if sections s
 Use at your own risk.
 ## C#
 - [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
+- [Upload a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/upload-a-file.md)
 
 ## css
 
