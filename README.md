@@ -4,6 +4,28 @@ A collection of code snippts and examples.
 I learn best by writing things down and trying to explain them. So if sections seem redundant or I seem to repeat simple things over and over that is why.
 
 Use at your own risk.
+## C#
+- [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
+
+## css
+
+- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
+
+## html
+
+- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
+- [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
+- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
+- [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
+
+## jquery
+
+- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/jquery-cdn-sources.md)
+- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
+- [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
+- [Printing html on load](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/printing-html-on-load.md)
+- [Show html element when question answered](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/show-when-question-answered.md)
+- [DataTables Search Template](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/search/datatables-search.md)
 
 ## php
 
@@ -29,26 +51,6 @@ Use at your own risk.
 - [Output](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/output-tsql-example.md)
 - [Example Personal Info Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/personal-info-example-table.md)
 - [Create Sequence](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/sequence.md)
-
-## html
-
-- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
-- [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
-- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
-- [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
-
-## css
-
-- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
-
-## jquery
-
-- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/jquery-cdn-sources.md)
-- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
-- [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
-- [Printing html on load](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/printing-html-on-load.md)
-- [Show html element when question answered](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/show-when-question-answered.md)
-- [DataTables Search Template](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/search/datatables-search.md)
 
 ## markdown
 
