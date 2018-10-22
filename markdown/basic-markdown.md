@@ -20,8 +20,5 @@ Italic
 Blockquotes
 `> We're living the future so`
 
-Bullet List
-`- [Link Name](url)`
-
 - Source(s)
   - [markdown](https://guides.github.com/features/mastering-markdown/)
