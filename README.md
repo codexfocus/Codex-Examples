@@ -29,6 +29,10 @@ Use at your own risk.
 - [Show html element when question answered](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/show-when-question-answered.md)
 - [DataTables Search Template](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/search/datatables-search.md)
 
+## markdown
+
+- [Basic markdown](https://github.com/codexfocus/Codex-Examples/blob/master/markdown/basic-markdown.md)
+
 ## php
 
 - [How to see php errors?](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-errors.md)
@@ -53,23 +57,3 @@ Use at your own risk.
 - [Output](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/output-tsql-example.md)
 - [Example Personal Info Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/personal-info-example-table.md)
 - [Create Sequence](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/sequence.md)
-
-## markdown
-
-A couple quick references for [markdown](https://guides.github.com/features/mastering-markdown/) until I remember them.
-
-Inline Code Use ``code here``
-
-Links `[GitHub](http://github.com)`
-
-Headers `# This is an <h1> tag`
-
-Bold `**bold**`
-
-Italic `*italic*`
-
-Blockquotes
-`> We're living the future so`
-
-
-
