@@ -7,6 +7,7 @@ Use at your own risk.
 ## C#
 - [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
 - [Upload a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/upload-a-file.md)
+- [Download a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/download-a-file.md)
 
 ## css
 
