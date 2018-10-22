@@ -4,7 +4,7 @@ A collection of code snippts and examples.
 I learn best by writing things down and trying to explain them. So if sections seem redundant or I seem to repeat simple things over and over that is why.
 
 Use at your own risk.
-## C#
+## c#
 - [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
 - [Upload a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/upload-a-file.md)
 - [Download a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/download-a-file.md)
