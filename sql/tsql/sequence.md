@@ -31,5 +31,7 @@ INSERT INTO [MyTable] ([ID]) VALUES (NEXT VALUE FOR Schema.SequenceName)
 
 - Source(s)
   - [Stackexchange Question](https://dba.stackexchange.com/questions/53261/how-do-i-create-a-table-with-a-column-that-uses-a-sequence)
-  
-  ### How to Reset Sequence
+
+### How to Reset Sequence
+
+`ALTER SEQUENCE [schema].[sequencename] RESTART WITH [new value]; `
