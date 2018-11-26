@@ -19,6 +19,7 @@ Use at your own risk.
 - [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
 - [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
+- [In page links](https://github.com/codexfocus/Codex-Examples/blob/master/html/in-page-links.md)
 
 ## jquery
 
