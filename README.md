@@ -20,6 +20,7 @@ Use at your own risk.
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
 - [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
 - [In page links](https://github.com/codexfocus/Codex-Examples/blob/master/html/in-page-links.md)
+- [Collapsable Container with jquery changing image](https://github.com/codexfocus/Codex-Examples/blob/master/html/collapsable-area.md)
 
 ## jquery
 
