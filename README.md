@@ -59,3 +59,5 @@ Use at your own risk.
 - [Output](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/output-tsql-example.md)
 - [Example Personal Info Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/personal-info-example-table.md)
 - [Create Sequence](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/sequence.md)
+- [Format a date in sql](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/format-date-in-sql.md)
+
