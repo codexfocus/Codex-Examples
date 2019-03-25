@@ -1,6 +1,6 @@
 ### How to create a sequence for tsql
 
-A simple sequence that starts at 1 and increments by 1.
+A simple sequence that starts at 1 and increments by 1. Whatever number it is set to it will be the number of the first entry. For example if it is set to 1010 the first entry will be 1010.
 
 ```
 CREATE SEQUENCE Schema.SequenceName  
