@@ -15,6 +15,7 @@ Use at your own risk.
 
 ## html
 
+- [Bootstrap Form Template](https://github.com/codexfocus/Codex-Examples/blob/master/html/bootstrap-form-template.md)
 - [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
 - [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
 - [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
