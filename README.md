@@ -5,9 +5,18 @@ I learn best by writing things down and trying to explain them. So if sections s
 
 Use at your own risk.
 ## c#
+- [TempData](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/tempdata.md)
+
+### asp.net mvc 5
 - [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
 - [Upload a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/upload-a-file.md)
 - [Download a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/download-a-file.md)
+
+### asp.net core 2.2
+- [Database Connection](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/core-db-connection.md)
+- [Uploading a File to a blob](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/uploading-a-file-to-blob.md)
+- [Creating a Select List from database using a view model](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/populate-selectlist.md)
+
 
 ## css
 
