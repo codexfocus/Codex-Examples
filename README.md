@@ -16,6 +16,7 @@ Use at your own risk.
 - [Database Connection](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/core-db-connection.md)
 - [Uploading a File to a blob](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/uploading-a-file-to-blob.md)
 - [Creating a Select List from database using a view model](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/populate-selectlist.md)
+- [SelectListGroup](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/SelectListGroup-Example.md)
 
 
 ## css
