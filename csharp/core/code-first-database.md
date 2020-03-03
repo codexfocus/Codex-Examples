@@ -7,6 +7,7 @@ Right click on the project > Manage NuGet Packages
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.SqlServer
 
+Note: We are adding will be using SqlServer for our database. If you are using a different database you will need to make sure your connections are set up and the librarys you need are included.
 #### Step 2 Create a Model class in the Models folder.
 
 ```
@@ -20,7 +21,7 @@ public class EmployeeModel
     public string Description { get; set; }
 }
 ```
-Note: Naming the Id after the model works best.
+Note: I have found naming the Id after the model always EF to work best.
 
 #### Step 3 Create an AppDbContext class in the Models folder.
 
@@ -45,7 +46,7 @@ In appsettings.json add:
 "ConnectionStrings": {
     "LocalConnection": "Server=LocationName\\SQLEXPRESS;Database=EmployeeDatabase;Integrated Security=SSPI;"
 ```
-Note: The name of the Database here will be the database.
+Note: The name of the Database here will be the database that is generated.
 
 #### Step 5 In the Startup.cs add the DbContext to the ConfigureServices
 
@@ -78,5 +79,5 @@ Note: If you have multiple DbContexts you can specific the one you want to gener
 
 
 - Source(s)
-  - [Tutorial](https://entityframeworkcore.com/approach-code-first)
+  - [entityframeworkcore.com Tutorial](https://entityframeworkcore.com/approach-code-first)
   - [Pluralsight Building Your First AspDotNet Core 2 MVC Application](https://app.pluralsight.com/library/courses/building-first-aspdotnet-core-2-mvc-application/table-of-contents)
