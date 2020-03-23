@@ -7,7 +7,7 @@ Right click on the project > Manage NuGet Packages
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.SqlServer
 
-Note: We are adding will be using SqlServer for our database. If you are using a different database you will need to make sure your connections are set up and the librarys you need are included.
+Note: For this example I am using SqlServer for the database. If you are using a different database you will need to make sure your connections are set up and the library you need is included.
 #### Step 2 Create a Model class in the Models folder.
 
 ```
@@ -21,7 +21,7 @@ public class EmployeeModel
     public string Description { get; set; }
 }
 ```
-Note: I have found naming the Id after the model always EF to work best.
+Note: I have found that naming the Id after the model name (or table name) helps when entity framework builds the database.
 
 #### Step 3 Create an AppDbContext class in the Models folder.
 
@@ -36,11 +36,11 @@ public class AppDbContext : DbContext
     public DbSet<EmployeeModel> Employees { get; set; }
 }
 ```
-Note: The name of the DbSet will be the name of your table.
+Note: The name of the DbSet will be the name of your table. So here Employees will be the table name..
 
 #### Step 4 Add your connection string
 
-In this example I will be adding it to appsettings.json, also creating a static string will work.
+In this example I will be adding it to appsettings.json, you could also create a static class and string to put the connection string in.
 In appsettings.json add:
 ```
 "ConnectionStrings": {
