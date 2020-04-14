@@ -3,6 +3,7 @@
 #### Step 1 Add the Packages to the project.
 
 Right click on the project > Manage NuGet Packages
+- Microsoft.EntityFrameworkCore
 - Microsoft.EntityFrameworkCore.Tools
 - Microsoft.EntityFrameworkCore.Design
 - Microsoft.EntityFrameworkCore.SqlServer
