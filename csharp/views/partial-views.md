@@ -6,7 +6,7 @@ If the view is in the same directory or I believe in the Shard directory.
 
 If the view is in a lower directory add the directory before the file name.
 
-`<partial name="Tabs/_Comment.cshtml" />`
+`<partial name="Tabs/_MyView.cshtml" />`
 
 
 - Source(s)
