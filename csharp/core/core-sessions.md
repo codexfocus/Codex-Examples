@@ -31,7 +31,7 @@ Also in the configure function add. Note order matters in the configure function
 
 `app.UseSession();`
 
-
+Note: These sessions are storied in a cookie client side.
 
 - Source(s)
   - [Sessions and App state in Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-2.2)
