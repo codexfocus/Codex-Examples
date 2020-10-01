@@ -11,7 +11,7 @@ dotnet myapp.dll
 ```
 You should get a much more verbose error there.
 
-In my experience if your server configuration are similary to another application and everything works in those but not this application.
+In my experience if your server configuration are similar to another application and everything works in those but not this application.
 It is usually a database error of some type when setting up the connection.
 
 - Source(s)
