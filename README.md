@@ -1,74 +1,7 @@
 # Codex-Examples
-A collection of code snippts and examples.
+A collection of code snippts, notes, and other examples.
 
 I learn best by writing things down and trying to explain them. So if sections seem redundant or I seem to repeat simple things over and over that is why.
 
 Use at your own risk.
-## c#
-- [TempData](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/tempdata.md)
-
-### asp.net mvc 5
-- [html helpers](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/asp-html-helpers.md)
-- [Upload a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/upload-a-file.md)
-- [Download a File](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/download-a-file.md)
-
-### asp.net core 2.2
-- [Database Connection](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/core-db-connection.md)
-- [Uploading a File to a blob](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/uploading-a-file-to-blob.md)
-- [Creating a Select List from database using a view model](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/populate-selectlist.md)
-- [SelectListGroup](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/SelectListGroup-Example.md)
-- [Code First Database](https://github.com/codexfocus/Codex-Examples/blob/master/csharp/core/code-first-database.md)
-
-## css
-
-- [print display](https://github.com/codexfocus/Codex-Examples/blob/master/css/no-print.md)
-
-## html
-
-- [Bootstrap Form Template](https://github.com/codexfocus/Codex-Examples/blob/master/html/bootstrap-form-template.md)
-- [html template page](https://github.com/codexfocus/Codex-Examples/blob/master/html/html-template.md)
-- [Simple html elements](https://github.com/codexfocus/Codex-Examples/blob/master/html/simple-html.md)
-- [select input state list](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-state-abbreviations.md)
-- [Select required example explained](https://github.com/codexfocus/Codex-Examples/blob/master/html/select-required.md)
-- [In page links](https://github.com/codexfocus/Codex-Examples/blob/master/html/in-page-links.md)
-- [Collapsable Container with jquery changing image](https://github.com/codexfocus/Codex-Examples/blob/master/html/collapsable-area.md)
-
-## jquery
-
-- [jquery CDN](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/jquery-cdn-sources.md)
-- [Back Button](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/back-button.md)
-- [Confirm Pop Up](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/confirm-pop-up.md)
-- [Printing html on load](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/printing-html-on-load.md)
-- [Show html element when question answered](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/show-when-question-answered.md)
-- [DataTables Search Template](https://github.com/codexfocus/Codex-Examples/blob/master/jquery/search/datatables-search.md)
-
-## markdown
-
-- [Basic markdown](https://github.com/codexfocus/Codex-Examples/blob/master/markdown/basic-markdown.md)
-
-## php
-
-- [How to see php errors?](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-errors.md)
-- [Documenting with phpdoc](https://github.com/codexfocus/Codex-Examples/blob/master/php/documenting-with-phpdoc.md)
-- [php session notes](https://github.com/codexfocus/Codex-Examples/blob/master/php/php-sessions.md)
-- [mysqli bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/mysqli_bind_param.php)
-- [oracle oci bind param](https://github.com/codexfocus/Codex-Examples/blob/master/php/oci_bind_by_name.php)
-- [Get the url of a page](https://github.com/codexfocus/Codex-Examples/blob/master/php/get-url-of-page.md)
-- [Formatting and Handling Dates in php](https://github.com/codexfocus/Codex-Examples/blob/master/php/date-handling.md)
-## sql
-
-### mysql
-- [Insert](https://github.com/codexfocus/Codex-Examples/blob/master/sql/insert.md)
-- [Show Create Statement](https://github.com/codexfocus/Codex-Examples/blob/master/sql/mysql-show-create-statement.md)
-- [Joins](https://github.com/codexfocus/Codex-Examples/blob/master/sql/joins.md)
-
-### plsql
-
-### tsql
-- [Create Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/create-table.md)
-- [Select, Insert, Update, Delete](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/select-insert-update-delete-tsql-examples.md)
-- [Output](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/output-tsql-example.md)
-- [Example Personal Info Table](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/personal-info-example-table.md)
-- [Create Sequence](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/sequence.md)
-- [Format a date in sql](https://github.com/codexfocus/Codex-Examples/blob/master/sql/tsql/format-date-in-sql.md)
 
