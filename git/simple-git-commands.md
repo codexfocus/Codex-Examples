@@ -27,5 +27,13 @@ This will add a remote copy of your git repo on the git server.
 
 `git push origin branchname`
 
+#### Get a list of connected remotes
+
+`git remote -v`
+
+#### Remove a remote
+
+`git remote remove REMOTENAME`
+
 - Source(s)
-  - [none](#)
+  - [Git-Basics-Working-with-Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
