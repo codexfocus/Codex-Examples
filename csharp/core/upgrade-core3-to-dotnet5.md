@@ -8,5 +8,5 @@ How to upgrade a project/solution from core v3.1 to .net5.
 - At this point the framework is upgraded do a build and work through errors.
 
 
-- Source(s)
+Source(s)
   - [1](https://docs.microsoft.com/en-us/aspnet/core/migration/31-to-50?view=aspnetcore-5.0&tabs=visual-studio)
