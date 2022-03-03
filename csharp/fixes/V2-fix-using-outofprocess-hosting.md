@@ -17,5 +17,11 @@ Location Example:
 </PropertyGroup
 ```
 
+Update 03-03-2022
+Here is the current iis error page title:
+HTTP Error 500.31 - Failed to load ASP.NET Core runtime
+
+The above fix continues to reslove the issue.
+
 - Source(s)
   - [#](#)
