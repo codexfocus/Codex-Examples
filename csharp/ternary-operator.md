@@ -1,4 +1,8 @@
 ### Ternary Operator
+
+Simple English
+`is this condition true ? yes : no`
+
 value = boolean ? true set this : else set this;
 
 Example
@@ -18,4 +22,4 @@ else
 ```
 
 - Source(s)
-  - [#](#)
+  - [?: operator (C# reference)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator)
