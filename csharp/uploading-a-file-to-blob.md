@@ -76,6 +76,7 @@ Html form to upload a new file.
 ```
 
 Controllers to view or download a file.
+Note: to handle viewing a file in browsers and avoid issues with commas and other characters in the file name make sure to put the file name in double quotes.
 ```
 [HttpGet]
 public FileResult DownloadFile(int ProjectDocumentId)
@@ -94,7 +95,7 @@ public FileContentResult ViewFile(int ProjectDocumentId)
 
 
     //makes the file view in browser note the filename is set in the header and not in the return File.
-    Response.Headers.Add("Content-Disposition", "inline; filename=" + projectDocument.FileName);
+    Response.Headers.Add("Content-Disposition", "inline; filename=\"" + projectDocument.FileName + "\"");
     return File(projectDocument.Content, projectDocument.ContentType);
 }  
 ```
