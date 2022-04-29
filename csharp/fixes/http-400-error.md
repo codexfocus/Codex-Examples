@@ -15,3 +15,4 @@ Brief explantion of how it works from the blog post link in the sources below.
 - Source(s)
   - [stackoverflow question](https://stackoverflow.com/questions/55840699/getting-http-error-400-when-form-gets-posted)
   - [Blog post explaining how it works.](https://www.learmoreseekmore.com/2020/06/dotnet-core-antiforgerytoken.html#:~:text=AntiForgeryToken%20is%20a%20security%20token,guard%20against%20Cross%2DSite%20Request.)
+  - [Microsoft Set Up Documentation for anti request forgery](https://docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-6.0)
