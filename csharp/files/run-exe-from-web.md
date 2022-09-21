@@ -2,6 +2,10 @@
 
 Run a .exe from a web applicaiton
 
+A few important notes.
+The App Pool user needs to be able to have access to the directory of the file location.
+If the location is a network share, the full directory path needs to be used. `\\server\filename\yourexe.exe` Also the user would need access to the location as well.
+
 ```
 [HttpGet("{id}")]
 public ActionResult<string> Get(int id)
