@@ -1,10 +1,14 @@
 ### Run a .exe from asp.net web app
 
-Run a .exe from a web applicaiton
+There is a couple options.
+
+#### Option 1
+- Run the exe on the server
+- Run the exe on a network share
 
 A few important notes.
-The App Pool user needs to be able to have access to the directory of the file location.
-If the location is a network share, the full directory path needs to be used. `\\server\filename\yourexe.exe` Also the user would need access to the location as well.
+- The App Pool user needs to be able to have access to the directory of the file location.
+- If the location is a network share, the full directory path needs to be used. `\\server\filename\yourexe.exe` Also the user would need access to the location as well.
 
 ```
 [HttpGet("{id}")]
@@ -36,6 +40,18 @@ public ActionResult<string> Get(int id)
     return "value";
 }
 ```
+
+#### Option 2
+- Run an exe on client pc (requires reg edit)
+
+Running on the client pc, allows access to things like printers.
+
+Note:
+- You need access to the client.
+- Add regedit to run the exe.
+- Exe needs to be on the pc.
+
+
 
 - Source(s)
   - [From](https://codeburst.io/run-an-external-executable-in-asp-net-core-5c2f8b6cacd9)
