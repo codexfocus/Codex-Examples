@@ -14,6 +14,7 @@ Setting up a new Task
 - Under Triggers set up a time to run.
 - Under Actions choose the application to run.
 
-- Source(s)
+
+Source(s)
   - [1](#)
   - [2](#)
