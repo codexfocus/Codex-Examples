@@ -46,4 +46,8 @@ Uncollapse all
 Remove using statements
 `ctrl + r + g`
 
+#### Google Chrome
+Hard Reload a web page, reloads css and js files 
+`ctrl + shift + r`
+
 - Source(s)
