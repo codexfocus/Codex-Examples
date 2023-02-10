@@ -1,6 +1,7 @@
 ### Manual Sql query
 
 `ExecuteReader` - Executes commands that return rows. 
+[Example of Opening and Closing a Reader](https://stackoverflow.com/questions/744051/is-it-necessary-to-manually-close-and-dispose-of-sqldatareader)
 
 `ExecuteNonQuery` - Executes commands such as Transact-SQL INSERT, DELETE, UPDATE, and SET statements.
 
