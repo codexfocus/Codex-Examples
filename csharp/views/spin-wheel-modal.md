@@ -1,13 +1,13 @@
 ### Spinning Wheel Modal
 
-Make sure to have a button with the type `type="submit"` in it.
+Make sure to have an id on the form tag `id="example"` in it.
 
 js included on the page.
 
 ```
 @section Scripts {
     <script type="text/javascript">
-        $("#loadPayments").submit(startProgress);
+        $("#example").submit(startProgress);
         function startProgress() {
             $("#progressModal").modal({ backdrop: 'static', keyboard: false });
         }
