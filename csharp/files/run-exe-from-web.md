@@ -18,8 +18,14 @@ public ActionResult<string> Get(int id)
     {
         process.StartInfo.FileName = @"..\HelloWorld\bin\Debug\helloworld.exe"; // relative path. absolute path works too.
         process.StartInfo.Arguments = $"{id}"; //optional
+        
         //process.StartInfo.FileName = @"cmd.exe";
         //process.StartInfo.Arguments = @"/c dir";      // print the current working directory information
+        
+        //use multiple arguments example
+        //process.StartInfo.ArgumentList.Add(InputOne);      
+        //process.StartInfo.ArgumentList.Add(InputTwo); 
+                
         process.StartInfo.CreateNoWindow = true;
         process.StartInfo.UseShellExecute = false;
 
@@ -51,6 +57,8 @@ Note:
 - Add regedit to run the exe.
 - Exe needs to be on the pc.
 
+Example calling the URI as an html link.
+`<a href="ExampleApp:@Model.Id" target="_blank">Example URI</a>`
 
 
 - Source(s)
