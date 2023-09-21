@@ -35,5 +35,10 @@ if (User.Identity.IsAuthenticated)
 return Redirect("/Logout");
 ```
 
+#### Uses
+- Force everyone to login, change the guid to force a login.
+- Lockout everyone, Set the check to something different than the guid to lock everyone out of the system. Then if you need access to the system, hard code your info in the claims factory to the number or hardcode your name to bypass the version check.
+
+
 - Source(s)
   - [1](#)
