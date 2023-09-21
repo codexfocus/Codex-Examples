@@ -1,4 +1,4 @@
-### Lockout user forcing to reauthenticate.
+### Lockout  all users forcing to reauthenticate.
 
 Locking an identity application so all users are forced to authenticate again through logging in again or be locked out.
 
