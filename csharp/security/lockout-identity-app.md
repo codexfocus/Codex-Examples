@@ -15,13 +15,19 @@ Using Identity Authentication in your applicaiton.
 
 #### Implementing
 Go to where your ClaimsIdentity is being populated. Add a new claim. We will call it 'SystemVersion'
-`identity.AddClaim(new Claim("SystemVersion", YourGuidHere));`
+```
+identity.AddClaim(new Claim("SystemVersion", YourGuidHere));
+```
 
 In my implementation I am going to store the value in static class for these types of definitions.
-`public static string SystemVersionGUID = "e41b8f2e-5241-44ca-8e39-32de7b32ba4d";`
+```
+public static string SystemVersionGUID = "e41b8f2e-5241-44ca-8e39-32de7b32ba4d";
+```
 
 Then to update my ClaimsIdentity:
-`identity.AddClaim(new Claim("SystemVersion", StaticDefinitions.SystemVersionGUID));`
+```
+identity.AddClaim(new Claim("SystemVersion", StaticDefinitions.SystemVersionGUID));
+```
 
 Check the cookie is valid continue on, if not redirect to logout so they need to login and authenticate again.
 ```
