@@ -1,5 +1,12 @@
 ### linq References
 
+#### How does linq work?
+- [https://www.tutorialsteacher.com/linq](https://www.tutorialsteacher.com/linq)
+
+method syntax - uses dot notation
+query syntax - uses the more sql query style of syntax
+
+#### Method Syntax Examples
 Example Raw Sql query using the _context.Database.
 
 `_context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT [dbo].[UsMasterYearser] OFF");`
@@ -32,6 +39,24 @@ _context.ExampleTable
   .FirstOrDefault();
 ```
 
+#### Query Syntax
+```
+var results = (from d in _context.Transactions
+                          join r in _context.Payments on d.PaymentId equals r.PaymentId
+                          where d.EIN == EIN
+                          && r.EntryDate.Date == PaymentDate.Date
+                          && d.IsVoid == false
+                          && d.ChargeTypeCode != 56
+                          && d.GeneralLedgerId != null
+                          && r.Status != 1
+                           select new
+                          {
+                              Transaction = d,
+                              Payment = r
+                          }).ToList();
+```
+
+How to do count, max, min.
+
 - Source(s)
-  - [1](#)
-  - [2](#)
+  - [none](#)
