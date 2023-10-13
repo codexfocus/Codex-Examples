@@ -4,6 +4,7 @@
 - [https://www.tutorialsteacher.com/linq](https://www.tutorialsteacher.com/linq)
 
 method syntax - uses dot notation
+
 query syntax - uses the more sql query style of syntax
 
 #### Method Syntax Examples
