@@ -2,7 +2,7 @@
 
 This works well for bootstrap with a well defined classes.
 
-First lets add a js file to force the switch. This will persist the toggle from page to page.
+First add a js file to force the switch. This will persist the toggle from page to page.
 
 ```
 !function(){
@@ -49,7 +49,7 @@ Second lets add the css. The below example is for bootstrap v3. At the bottom of
 }
 ```
 
-Last we need to add a toggle. This will go in the footer of the page and show up on every page.
+Last we need to add an html toggle. This will go in the footer of the page and show up on every page.
 
 ```
 <footer class="border-top footer text-muted">
