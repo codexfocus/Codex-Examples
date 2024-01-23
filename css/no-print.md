@@ -1,6 +1,7 @@
 ### No Print Class
 
-A couple classes to help layout when printing pages.
+A couple classes to help layout when printing html pages.
+
 The first one makes the class not show up in the print view including save as pdf.
 
 ```
