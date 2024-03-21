@@ -18,9 +18,17 @@ Return Max Number of the column.
 _context.ExampleTable.Max((p => p.Year));
 ```
 
-Where
+#### Where
 ```
 _context.ExampleTable.Where(p => p.Year == Year).Where(p => p.Status == Status);
+```
+Where clause on date not the time.
+```
+.Where(x.DateKey.Date == EntryDate.Date)
+```
+Where clause on a nullable date comparing just the date not the time.
+```
+.Where(x => x.DateKey.HasValue && x.DateKey.Value.Date == EntryDate.Date)
 ```
 
 List
