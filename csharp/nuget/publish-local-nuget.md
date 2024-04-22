@@ -23,7 +23,7 @@ For example, if your .csproj file looks like this:
 ```
 
 Then the command will look like this:
-`dotnet nuget push .\bin\debug\WeberCounty.RecorderModelsLibrary.0.1.3.nupkg -s \\networkshare\LocalNuGet`
+`dotnet nuget push .\bin\debug\OrgName.ExampleModelsLibrary.0.1.3.nupkg -s \\networkshare\LocalNuGet`
 
 - Source(s)
   - [none](#)
