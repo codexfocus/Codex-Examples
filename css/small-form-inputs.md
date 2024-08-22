@@ -6,11 +6,11 @@ Make form inputs smaller and compact. Use in your site.css or page specific css.
 ```
 --css for smaller inputs
 .input-sm {
-    height: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 5px;
-    padding-left: 5px;
+    height: 20px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
 }
 ```
 
