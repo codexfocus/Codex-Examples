@@ -1,7 +1,12 @@
 ### On/Off Toggle Switch
 
-Create a bool static definition.
-`public static bool LoginLocked = false;`
+Create a bool static definition in ones static class.
+```
+public class Statics
+{
+      public static bool LoginLocked = false;
+}
+```
 
 Display the definitions pass it into a view model and display on the view.
 ```
