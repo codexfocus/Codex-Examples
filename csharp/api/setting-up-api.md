@@ -1,4 +1,4 @@
-### title
+### Setting Up a simple api with a key for authentication
 
 We need three things when setting up an api in .net.
 - An ApiKey Record
@@ -102,8 +102,9 @@ public class DataController : ControllerBase
 
 #### Testing
 An example of testing with postman.
-Set the url of the api. Note the route option on the controller.
-Set the Headers the Key name: X-API-KEY and the Value to one of the keys: thirdkey789
+    - Set the url of the api. 
+    - Note the route option on the controller.
+    -  Set the Headers the Key name: X-API-KEY and the Value to one of the keys: thirdkey789
 
 - Source(s)
   - [1](link1)
